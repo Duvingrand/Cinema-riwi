@@ -83,6 +83,9 @@
     width: 300px;
     border-radius: 50px 0px;
 }
+.pelicard:hover{
+    background-color: var(--claroMax);
+}
 
 
 .pelicard h3, p{
@@ -107,21 +110,13 @@
 }
 
 .boton-compra:hover{
-    margin:auto 40%;
     color: var(--claroMin);
     background-color: var(--oscuroMax);
-    border: 0;
-    padding: 10px;
-    border-radius: 20px 0px;
 }
 
 .boton-compra:active{
-    margin:auto 40%;
     color: var(--oscuroMin);
     background-color: var(--claroMax);
-    border: 0;
-    padding: 10px;
-    border-radius: 20px 0px;
 }
 
 .pelicard-añadir {
@@ -134,12 +129,25 @@
     border-radius: 0px 50px;
 }
 
+.pelicard-añadir:hover{
+    background-color: var(--claroMax);
+}
+
 #imagen-pelicula-nueva {
     width: 200px;
     height: 160px;
     border: 1px solid #000000;
     margin-top: 10px;
 }
+
+.contactanos{
+    border: 5px dashed var(--oscuroMax);
+    margin:30px;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--claroMax);
+}
+
 
 
 .footer {
