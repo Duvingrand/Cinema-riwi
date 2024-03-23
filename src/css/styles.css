@@ -62,36 +62,53 @@
 }
 
 .pelicula-prin {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 20px;
 }
 
-.peliculas{
+.peliculas {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px; 
+    gap: 30px;
     flex-wrap: wrap;
-    
+
 }
 
-.pelicard{
+.pelicard {
     border: 4px solid var(--oscuroMax);
     box-sizing: border-box;
     height: 400px;
     width: 300px;
-    
+}
+.pelicard h3, p{
+    margin: 5px;
 }
 
-.pelicard img{
-    display:flex;
-    border-bottom: 2px dashed var(--oscuroMax);
+.pelicard img {
+    display: block;
     height: 250px;
-    
+    margin: auto;
+    width: 180px;
+
 }
 
+.pelicard-añadir {
+    border: 4px solid var(--oscuroMax);
+    box-sizing: border-box;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    align-content: center;
+}
+
+#imagen-pelicula-nueva {
+    width: 200px;
+    height: 160px;
+    border: 1px solid #000000;
+    margin-top: 10px;
+}
 
 
 .footer {
