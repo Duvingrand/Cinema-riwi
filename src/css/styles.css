@@ -56,7 +56,6 @@
 }
 
 
-
 .main {
     background-color: var(--Fondo);
 }
@@ -65,6 +64,7 @@
     align-items: center;
     text-align: center;
     padding: 20px;
+    border: 10px solid;
 }
 
 .peliculas {
@@ -146,6 +146,11 @@
     padding: 10px;
     text-align: center;
     background-color: var(--claroMax);
+}
+
+img:hover{
+    border: 17px solid;
+
 }
 
 
